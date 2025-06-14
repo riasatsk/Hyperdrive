@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <string.h>
 
-int main (void){
-   char* message = strcat("Hello ", "World!\n");
-   printf("%s", message);
+int main(){
+   int c = getchar();
+   printf("%d\n", c);
+
 }
